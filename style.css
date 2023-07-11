@@ -68,6 +68,12 @@ body {
 .failure-content p {
   margin: 20px auto;
 }
+.failure-content ul {
+  list-style: none;
+}
+.failure-content i {
+  color: #16d887;
+}
 
 /* plan section */
 .plan-section h2 {
@@ -94,11 +100,12 @@ body {
   max-width: 900px;
   margin: 100px auto;
 
-  background-image: url("./images/gradient1.png"), url("./images/watch.png");
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("./images/watch.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-blend-mode: exclusion;
   height: 250px;
   border-radius: 8px;
 }
